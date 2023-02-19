@@ -1,54 +1,13 @@
-# Prismic + Next.js Crash Course
+# Prismic with Next.js :rainbow:
 
-[Prismic][prismic] is a headless website builder. With a traditional CMS, you can manage a website's text and images. With Prismic, you can also manage website components — so teams can build their entire website with Prismic.
+For this project I made a custom type with three slices. Hero/ Features are template slices from Prismic that are styled with Tailwind. For the third one, TestSlice, I had originally wanted to experiment with with Styled components but that gave me hydration errors so I tried out CSS modules instead. Normally I would stick to one styling system but I thought it might be interesting to try both and show the differences. I think both choices are nice. If you want a less verbose JSX and have preference for classic CSS then the CSS modules would be a good option. Tailwind has the advantage of having everything contained within each slice which makes navigation easier.
 
-This repository should be used alongside [Prismic's Crash Course guide][prismic-crash-course].
+In the component folder you can see an example of reusable components such as ButtonLink that I use both in Hero and TestSlice. These were automatically set up by PrismicM, as I chose to do their set-up tutorial.
 
-[**View the Prismic + Next.js Crash Course**][prismic-crash-course]
+## :cake: Slices 	
+![slices](https://user-images.githubusercontent.com/7037910/219959371-a78d0c97-af0c-4add-a1b8-36b560d6c173.png)
 
-## 🚀 Quick start
+## :pencil2: Editor 	
 
-The fastest way to learn Prismic is with a hands-on demo.
 
-```sh
-npx degit https://github.com/prismicio-community/crash-course-next crash-course-next
-cd crash-course-next
-npx @slicemachine/init
-```
-
-With these commands, you’ll get a fully-featured Prismic website to test out.
-
-You’ll be asked to log in with a Prismic account and name a new Prismic content repository. Go ahead and name the repository anything you want.
-
-Once the app is created, navigate into the app directory and start it up.
-
-```sh
-npm run dev
-```
-
-You’ll be able to see the live site running at <http://localhost:3000>.
-
-## Learn more
-
-Continue learning about Prismic with the [Prismic + Next.js Crash Course][prismic-crash-course].
-
-## License
-
-```
-Copyright 2013-2022 Prismic <contact@prismic.io> (https://prismic.io)
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-
-[prismic]: https://prismic.io/
-[prismic-crash-course]: https://prismic.io/docs/technologies/nextjs-crash-course
+![editor](https://user-images.githubusercontent.com/7037910/219959405-4181a67a-9ccc-4c30-ac9e-d1bd35312ba6.png)
