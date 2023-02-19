@@ -1,27 +1,54 @@
-# Hello World example
+# Prismic + Next.js Crash Course
 
-This example shows the most basic idea behind Next. We have 2 pages: `pages/index.tsx` and `pages/about.tsx`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities. The `day` directory shows that you can have subdirectories.
+[Prismic][prismic] is a headless website builder. With a traditional CMS, you can manage a website's text and images. With Prismic, you can also manage website components — so teams can build their entire website with Prismic.
 
-## Deploy your own
+This repository should be used alongside [Prismic's Crash Course guide][prismic-crash-course].
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/hello-world)
+[**View the Prismic + Next.js Crash Course**][prismic-crash-course]
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
+## 🚀 Quick start
 
-## How to use
+The fastest way to learn Prismic is with a hands-on demo.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example hello-world hello-world-app
+```sh
+npx degit https://github.com/prismicio-community/crash-course-next crash-course-next
+cd crash-course-next
+npx @slicemachine/init
 ```
 
-```bash
-yarn create next-app --example hello-world hello-world-app
+With these commands, you’ll get a fully-featured Prismic website to test out.
+
+You’ll be asked to log in with a Prismic account and name a new Prismic content repository. Go ahead and name the repository anything you want.
+
+Once the app is created, navigate into the app directory and start it up.
+
+```sh
+npm run dev
 ```
 
-```bash
-pnpm create next-app --example hello-world hello-world-app
+You’ll be able to see the live site running at <http://localhost:3000>.
+
+## Learn more
+
+Continue learning about Prismic with the [Prismic + Next.js Crash Course][prismic-crash-course].
+
+## License
+
+```
+Copyright 2013-2022 Prismic <contact@prismic.io> (https://prismic.io)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+[prismic]: https://prismic.io/
+[prismic-crash-course]: https://prismic.io/docs/technologies/nextjs-crash-course

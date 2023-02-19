@@ -1,0 +1,59 @@
+{
+  "id": "test_slice",
+  "type": "SharedSlice",
+  "name": "TestSlice",
+  "description": "TestSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TestSlice",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "TestImage": {
+          "type": "Image",
+          "config": {
+            "label": "Test Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "CtaText": {
+          "type": "Text",
+          "config": {
+            "label": "Cta Text",
+            "placeholder": ""
+          }
+        },
+        "CtaLink": {
+          "type": "Link",
+          "config": {
+            "label": "Cta Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
